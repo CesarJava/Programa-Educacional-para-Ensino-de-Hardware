@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7609EC9-E0B0-465B-A65C-C73A873EA39C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trabalho_Interdisciplinar___Placa_de_Video</RootNamespace>
+    <AssemblyName>Trabalho Interdisciplinar - Placa de Video</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ajuda.Designer.cs">
+      <DependentUpon>Ajuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComoJogar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComoJogar.Designer.cs">
+      <DependentUpon>ComoJogar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConteudoIntrodução.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConteudoIntrodução.Designer.cs">
+      <DependentUpon>ConteudoIntrodução.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConteudoOqueéPlacadeVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConteudoOqueéPlacadeVideo.Designer.cs">
+      <DependentUpon>ConteudoOqueéPlacadeVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cruzada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cruzada.Designer.cs">
+      <DependentUpon>Cruzada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Evoluçãodasplacasdevideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evoluçãodasplacasdevideo.Designer.cs">
+      <DependentUpon>Evoluçãodasplacasdevideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InformacoesBasicasdeumaplacadevideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformacoesBasicasdeumaplacadevideo.Designer.cs">
+      <DependentUpon>InformacoesBasicasdeumaplacadevideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NiveisQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NiveisQuiz.Designer.cs">
+      <DependentUpon>NiveisQuiz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlacadevideoOffBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlacadevideoOffBoard.Designer.cs">
+      <DependentUpon>PlacadevideoOffBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlacadevideoOnBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlacadevideoOnBoard.Designer.cs">
+      <DependentUpon>PlacadevideoOnBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pontuacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pontuacao.Designer.cs">
+      <DependentUpon>Pontuacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessadoreMemoriadeumaplacadevideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessadoreMemoriadeumaplacadevideo.Designer.cs">
+      <DependentUpon>ProcessadoreMemoriadeumaplacadevideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuizDificil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuizDificil.Designer.cs">
+      <DependentUpon>QuizDificil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuizFacil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuizFacil.Designer.cs">
+      <DependentUpon>QuizFacil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teoria.Designer.cs">
+      <DependentUpon>Teoria.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ajuda.resx">
+      <DependentUpon>Ajuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComoJogar.resx">
+      <DependentUpon>ComoJogar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConteudoIntrodução.resx">
+      <DependentUpon>ConteudoIntrodução.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConteudoOqueéPlacadeVideo.resx">
+      <DependentUpon>ConteudoOqueéPlacadeVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cruzada.resx">
+      <DependentUpon>Cruzada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evoluçãodasplacasdevideo.resx">
+      <DependentUpon>Evoluçãodasplacasdevideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InformacoesBasicasdeumaplacadevideo.resx">
+      <DependentUpon>InformacoesBasicasdeumaplacadevideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NiveisQuiz.resx">
+      <DependentUpon>NiveisQuiz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlacadevideoOffBoard.resx">
+      <DependentUpon>PlacadevideoOffBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlacadevideoOnBoard.resx">
+      <DependentUpon>PlacadevideoOnBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pontuacao.resx">
+      <DependentUpon>Pontuacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessadoreMemoriadeumaplacadevideo.resx">
+      <DependentUpon>ProcessadoreMemoriadeumaplacadevideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QuizDificil.resx">
+      <DependentUpon>QuizDificil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuizFacil.resx">
+      <DependentUpon>QuizFacil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teoria.resx">
+      <DependentUpon>Teoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trabalho Interdisciplinar.Business\Trabalho Interdisciplinar.Business.csproj">
+      <Project>{1DBD8932-238C-449F-B4FB-1A0306E0DEDF}</Project>
+      <Name>Trabalho Interdisciplinar.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trabalho Interdisciplinar.DAO\Trabalho Interdisciplinar.DAO.csproj">
+      <Project>{63ACECB7-A109-4F5C-823D-DC503125752F}</Project>
+      <Name>Trabalho Interdisciplinar.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trabalho Interdisciplinar.Modelo\Trabalho Interdisciplinar.Modelo.csproj">
+      <Project>{E6ACB3F8-8B16-4DAB-BA3E-643365928492}</Project>
+      <Name>Trabalho Interdisciplinar.Modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
